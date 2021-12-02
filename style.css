@@ -1,0 +1,284 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.line {
+    margin: 70px auto 70px auto;
+    width: 1097px;
+    height: 3px;
+    background-color: #002444;
+}
+
+/* Main-section */
+.main-section {
+    margin: 63px 75px;
+
+}
+
+.container-fluid {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-sc-pg1 {
+    margin-left: 4px;
+    margin-top: 100px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+
+}
+
+.main-sc-hd {
+    max-width: 670px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 68px;
+}
+
+.main-sc-pg2 {
+    margin-top: 50px;
+    max-width: 395px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.submit-btn {
+    margin-top: 50px;
+    padding: 9px 25px;
+    border: 2px solid #000;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    background-color: transparent;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #000;
+    border-radius: 50px;
+    transition: all 100ms ease-in;
+}
+
+.submit-btn:hover {
+    margin-top: 50px;
+    padding: 9px 25px;
+    background-color: #005BFF;
+    border: 2px solid #005BFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #fff;
+    border-radius: 50px;
+}
+
+/* Second-section */
+
+.row {
+    justify-content: flex-start;
+}
+
+
+.second-sc {
+    margin-top: 50px;
+}
+
+.col-lg-6 {
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Third section */
+
+.third-section {
+    position: relative;
+    margin: 50px auto 50px auto;
+    height: 700px;
+}
+
+.third-sc-hd {
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 68px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.first-process {
+    display: inline-block;
+    position: relative;
+    left: 5%;
+    top: 90px;
+}
+
+.first-circle {
+    display: inline-block;
+    width: 117px;
+    height: 117px;
+    border-radius: 50%;
+    border: 2px solid #0055EF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 150%;
+    text-align: center;
+    transition: all 200ms ease-in;
+}
+
+.first-process-block {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.first-process-bl-p {
+    margin-top: 10px;
+    max-width: 254px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+
+    display: flex;
+    align-items: flex-end;
+    color: #000000;
+}
+
+.arrow1 {
+    position: relative;
+    left: 145px;
+    top: 50px;
+}
+
+.second-process {
+    position: relative;
+    left: 220px;
+    top: 40px;
+}
+
+.second-circle {
+    display: inline-block;
+    width: 117px;
+    height: 117px;
+    border-radius: 50%;
+    border: 2px solid #0055EF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 150%;
+    text-align: center;
+    transition: all 200ms ease-in;
+}
+
+
+
+.arrow2 {
+    position: relative;
+    left: 450px;
+    bottom: 320px;
+}
+
+.third-process {
+    position: relative;
+    left: 800px;
+    bottom: 600px;
+    display: inline-block;
+}
+
+.third-circle {
+    display: inline-block;
+    width: 117px;
+    height: 117px;
+    border-radius: 50%;
+    border: 2px solid #0055EF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 150%;
+    text-align: center;
+    transition: all 200ms ease-in;
+}
+
+.arrow3 {
+    position: relative;
+    left: 900px;
+    bottom: 650px;
+}
+
+.fourth-process {
+    position: relative;
+    left: 980px;
+    bottom: 660px;
+}
+
+.fourth-circle {
+    display: inline-block;
+    width: 117px;
+    height: 117px;
+    border-radius: 50%;
+    border: 2px solid #0055EF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 150%;
+    text-align: center;
+    transition: all 200ms ease-in;
+}
+
+/* Fourth section */
+.fourth-section {
+    margin: 50px auto 50px auto;
+    height: 700px;
+}
+
+.fourth-sc-hd {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 68px;
+    text-align: center;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+/* Fifth section */
+.fifth-section {
+    margin-top: 150px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.form-control {
+    max-width: 600px;
+    height: 60px;
+    border-radius: 50px;
+    position: relative;
+    left: 440px;
+    border: 2px solid black;
+}
